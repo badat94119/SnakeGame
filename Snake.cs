@@ -11,6 +11,7 @@ namespace SnakeGame
         public Snake() 
         {
             this.Head = new Point(0, 0) ;
+            this.Body = new List<Point>();
         }
 
         public Point Head { set; get; }
