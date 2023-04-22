@@ -10,7 +10,7 @@ namespace SnakeGame
     {
         public Snake() 
         {
-            this.Head = new Point(0, 0) ;
+            this.Head = new Point(1, 1) ;
             this.Body = new List<Point>();
         }
 
